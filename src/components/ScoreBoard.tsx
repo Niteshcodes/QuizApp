@@ -6,7 +6,7 @@ interface props {
 
 const ScoreBoard: React.FC<props> = (props) => {
     return (
-        <div className='w-full bg-black text-white text-[1.42vw] p-3 flex'>
+        <div className='w-full bg-black text-white text-lg p-3 flex'>
             <h1>Score : </h1>
             <div className='px-2'>
                 <span>{props.currentAnswer}</span>/
