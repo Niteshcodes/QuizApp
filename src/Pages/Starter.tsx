@@ -1,4 +1,4 @@
-import React, { CSSProperties, useState } from "react";
+import  { CSSProperties, useState } from "react";
 import { useDispatch } from "react-redux";
 // import { RootState } from "../store/Store";
 import { getQuestions } from "../utils/services/question";
