@@ -38,7 +38,7 @@ function Game() {
   }
   return (
     <>
-      <h2 className="text-center my-4 font-bold text-lg ">Quiz Game</h2>
+      <h2 className="text-center my-4 font-bold text-2xl ">Quiz Game</h2>
       <div id="scoreBoard">
         <ScoreBoard currentAnswer={score} totalQuestions={totalQuestions} />
         <div className="w-[80vw] m-auto p-3   ">
