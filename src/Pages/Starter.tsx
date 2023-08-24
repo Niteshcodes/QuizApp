@@ -113,7 +113,7 @@ function Starter() {
             {loading && <div className="bg-[#0000007c] absolute z-10 w-full h-full top-0 left-0">
             </div>}
             <ClockLoader
-                color={"#f21212"}
+                color={"#f21215"}
                 loading={loading}
                 cssOverride={override}
                 size={150}
